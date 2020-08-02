@@ -23,13 +23,13 @@ function BuscarPokemon() {
   <li class="list-group-item">Pokemon!</li>
 
   
-  <li class="list-group-item list-group-item-primary">${i + 1}</li>
-  <li class="list-group-item list-group-item-secondary">${p.pokedex}</li>
-  <li class="list-group-item list-group-item-success">${p.nombre}</li>
-  <li class="list-group-item list-group-item-danger">${p.ataque}</li>
-  <li class="list-group-item list-group-item-warning">${p.hp}</li>
-  <li class="list-group-item list-group-item-info">${p.defensa}</li>
-  <li class="list-group-item list-group-item-light">${p.velocidad}</li>
+  <li class="list-group-item list-group-item-primary">ID ${i + 1}</li>
+  <li class="list-group-item list-group-item-secondary"> Pokedex ${p.pokedex}</li>
+  <li class="list-group-item list-group-item-success"> Nombre ${p.nombre}</li>
+  <li class="list-group-item list-group-item-danger"> Ataque ${p.ataque}</li>
+  <li class="list-group-item list-group-item-warning"> HP ${p.hp}</li>
+  <li class="list-group-item list-group-item-info"> Defensa${p.defensa}</li>
+  <li class="list-group-item list-group-item-light"> Velocidad ${p.velocidad}</li>
   <th scope="row"><img src="${p.imagen}" class="card-img-top" ></img></th>
 </ul>
         
